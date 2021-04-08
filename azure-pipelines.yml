@@ -6,7 +6,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'ab0d619e-e729-412b-a7ba-62fb131bddf7'
+  dockerRegistryServiceConnection: 'Free Trial (ab0d619e-e729-412b-a7ba-62fb131bddf7)'
   imageRepository: 'xvellaazurepipelineattempt'
   containerRegistry: 'aopacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
