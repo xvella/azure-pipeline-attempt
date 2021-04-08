@@ -1,12 +1,9 @@
 trigger:
 - main
 
-resources:
-- repo: self
-
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'Free Trial (dd833071-58bb-4c35-b1b4-8c42c8da031f)'
+  dockerRegistryServiceConnection: 'Azure acr connection'
   imageRepository: 'xvellaazurepipelineattempt'
   containerRegistry: 'aopacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
